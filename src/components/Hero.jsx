@@ -5,7 +5,6 @@ import avatar from "../images/avatar.png";
 import { socials } from "../data/data";
 
 const Hero = () => {
-
   // To hide arrow when scrolling down
   // Must use function for the this to work
   window.addEventListener("scroll", function () {
@@ -61,7 +60,7 @@ const Hero = () => {
           className="h-60 w-60 rounded-xl bg-gradient-to-b from-rose-600 object-cover object-top pt-5 md:h-72 md:w-72"
         />
         <a
-          href="/Resume.pdf"
+          href="/RESUME (IZZUL HAZIM BIN ZAHBA).pdf"
           download={true}
           className="mt-10 flex items-center justify-center rounded-3xl bg-gradient-to-r from-rose-600 to-teal-500 py-2 text-white hover:animate-pulse"
         >
